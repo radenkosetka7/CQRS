@@ -1,0 +1,291 @@
+2025-12-09T13:42:17.035+01:00  INFO 23120 --- [CQRSRead] [main] o.example.cqrsread.CqrsReadApplication   : Starting CqrsReadApplication v0.0.1-SNAPSHOT using Java 21.0.8 with PID 23120 (C:\Users\radenko.setka\IdeaProjects\CQRS\CQRSRead\target\CQRSRead-0.0.1-SNAPSHOT.jar started by radenko.setka in C:\Users\radenko.setka\IdeaProjects\CQRS)
+2025-12-09T13:42:17.043+01:00  INFO 23120 --- [CQRSRead] [main] o.example.cqrsread.CqrsReadApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-12-09T13:42:18.489+01:00  INFO 23120 --- [CQRSRead] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-09T13:42:18.594+01:00  INFO 23120 --- [CQRSRead] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interface.
+2025-12-09T13:42:19.049+01:00  INFO 23120 --- [CQRSRead] [main] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2025-12-09T13:42:19.051+01:00  INFO 23120 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2025-12-09T13:42:19.053+01:00  INFO 23120 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2025-12-09T13:42:19.054+01:00  INFO 23120 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-12-09T13:42:19.055+01:00  INFO 23120 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-12-09T13:42:19.056+01:00  INFO 23120 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2025-12-09T13:42:19.057+01:00  INFO 23120 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.support.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2025-12-09T13:42:19.059+01:00  INFO 23120 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2025-12-09T13:42:19.060+01:00  INFO 23120 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2025-12-09T13:42:19.061+01:00  INFO 23120 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationInfo [org.springframework.boot.ApplicationInfoPropertySource] to EncryptableMapPropertySourceWrapper
+2025-12-09T13:42:19.363+01:00  INFO 23120 --- [CQRSRead] [main] c.u.j.filter.DefaultLazyPropertyFilter   : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2025-12-09T13:42:19.383+01:00  INFO 23120 --- [CQRSRead] [main] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2025-12-09T13:42:19.389+01:00  INFO 23120 --- [CQRSRead] [main] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2025-12-09T13:42:19.783+01:00  INFO 23120 --- [CQRSRead] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9001 (http)
+2025-12-09T13:42:19.811+01:00  INFO 23120 --- [CQRSRead] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-09T13:42:19.812+01:00  INFO 23120 --- [CQRSRead] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-09T13:42:19.865+01:00  INFO 23120 --- [CQRSRead] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2712 ms
+2025-12-09T13:42:20.239+01:00  INFO 23120 --- [CQRSRead] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-09T13:42:20.390+01:00  INFO 23120 --- [CQRSRead] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-09T13:42:21.414+01:00  INFO 23120 --- [CQRSRead] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-09T13:42:21.492+01:00  INFO 23120 --- [CQRSRead] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-09T13:42:22.199+01:00  INFO 23120 --- [CQRSRead] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@cfacf0
+2025-12-09T13:42:22.206+01:00  INFO 23120 --- [CQRSRead] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-09T13:42:22.373+01:00  WARN 23120 --- [CQRSRead] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-09T13:42:22.435+01:00  INFO 23120 --- [CQRSRead] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/cqrs_read]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.4
+	Default catalog/schema: cqrs_read/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-09T13:42:24.120+01:00  INFO 23120 --- [CQRSRead] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-09T13:42:24.264+01:00  INFO 23120 --- [CQRSRead] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09T13:42:24.502+01:00  INFO 23120 --- [CQRSRead] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-09T13:42:25.004+01:00  WARN 23120 --- [CQRSRead] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-09T13:42:27.673+01:00  INFO 23120 --- [CQRSRead] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9001 (http) with context path '/'
+2025-12-09T13:42:27.699+01:00  INFO 23120 --- [CQRSRead] [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-12-09T13:42:27.951+01:00  INFO 23120 --- [CQRSRead] [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#7ec5d3e1:0/SimpleConnection@5b2c9a69 [delegate=amqp://guest@127.0.0.1:5672/, localPort=63553]
+2025-12-09T13:42:28.267+01:00  INFO 23120 --- [CQRSRead] [main] o.example.cqrsread.CqrsReadApplication   : Started CqrsReadApplication in 12.118 seconds (process running for 13.128)
+2025-12-09T13:43:15.771+01:00  INFO 23120 --- [CQRSRead] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-12-09T13:43:16.566+01:00  INFO 23120 --- [CQRSRead] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-12-09T13:43:16.568+01:00  INFO 23120 --- [CQRSRead] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-09T13:43:16.589+01:00  INFO 23120 --- [CQRSRead] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-09T13:43:16.603+01:00  INFO 23120 --- [CQRSRead] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09T13:43:16.607+01:00  INFO 23120 --- [CQRSRead] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-09T13:43:16.624+01:00  INFO 23120 --- [CQRSRead] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-09T13:44:08.291+01:00  INFO 14072 --- [CQRSRead] [main] o.example.cqrsread.CqrsReadApplication   : Starting CqrsReadApplication v0.0.1-SNAPSHOT using Java 21.0.8 with PID 14072 (C:\Users\radenko.setka\IdeaProjects\CQRS\CQRSRead\target\CQRSRead-0.0.1-SNAPSHOT.jar started by radenko.setka in C:\Users\radenko.setka\IdeaProjects\CQRS)
+2025-12-09T13:44:08.299+01:00  INFO 14072 --- [CQRSRead] [main] o.example.cqrsread.CqrsReadApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-12-09T13:44:09.581+01:00  INFO 14072 --- [CQRSRead] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-09T13:44:09.666+01:00  INFO 14072 --- [CQRSRead] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interface.
+2025-12-09T13:44:10.086+01:00  INFO 14072 --- [CQRSRead] [main] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2025-12-09T13:44:10.088+01:00  INFO 14072 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2025-12-09T13:44:10.091+01:00  INFO 14072 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2025-12-09T13:44:10.092+01:00  INFO 14072 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-12-09T13:44:10.092+01:00  INFO 14072 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-12-09T13:44:10.093+01:00  INFO 14072 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2025-12-09T13:44:10.094+01:00  INFO 14072 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.support.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2025-12-09T13:44:10.094+01:00  INFO 14072 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2025-12-09T13:44:10.095+01:00  INFO 14072 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2025-12-09T13:44:10.096+01:00  INFO 14072 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationInfo [org.springframework.boot.ApplicationInfoPropertySource] to EncryptableMapPropertySourceWrapper
+2025-12-09T13:44:10.379+01:00  INFO 14072 --- [CQRSRead] [main] c.u.j.filter.DefaultLazyPropertyFilter   : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2025-12-09T13:44:10.395+01:00  INFO 14072 --- [CQRSRead] [main] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2025-12-09T13:44:10.401+01:00  INFO 14072 --- [CQRSRead] [main] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2025-12-09T13:44:10.835+01:00  INFO 14072 --- [CQRSRead] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9001 (http)
+2025-12-09T13:44:10.861+01:00  INFO 14072 --- [CQRSRead] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-09T13:44:10.862+01:00  INFO 14072 --- [CQRSRead] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-09T13:44:10.914+01:00  INFO 14072 --- [CQRSRead] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2508 ms
+2025-12-09T13:44:11.250+01:00  INFO 14072 --- [CQRSRead] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-09T13:44:11.383+01:00  INFO 14072 --- [CQRSRead] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-09T13:44:12.228+01:00  INFO 14072 --- [CQRSRead] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-09T13:44:12.283+01:00  INFO 14072 --- [CQRSRead] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-09T13:44:12.842+01:00  INFO 14072 --- [CQRSRead] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31e22365
+2025-12-09T13:44:12.848+01:00  INFO 14072 --- [CQRSRead] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-09T13:44:12.968+01:00  WARN 14072 --- [CQRSRead] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-09T13:44:13.020+01:00  INFO 14072 --- [CQRSRead] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/cqrs_read]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.4
+	Default catalog/schema: cqrs_read/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-09T13:44:14.341+01:00  INFO 14072 --- [CQRSRead] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-09T13:44:14.439+01:00  INFO 14072 --- [CQRSRead] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09T13:44:14.597+01:00  INFO 14072 --- [CQRSRead] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-09T13:44:14.892+01:00  WARN 14072 --- [CQRSRead] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-09T13:44:15.954+01:00  INFO 14072 --- [CQRSRead] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9001 (http) with context path '/'
+2025-12-09T13:44:15.965+01:00  INFO 14072 --- [CQRSRead] [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-12-09T13:44:16.107+01:00  INFO 14072 --- [CQRSRead] [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#19a544cd:0/SimpleConnection@6c2063e0 [delegate=amqp://guest@127.0.0.1:5672/, localPort=60305]
+2025-12-09T13:44:16.257+01:00  INFO 14072 --- [CQRSRead] [main] o.example.cqrsread.CqrsReadApplication   : Started CqrsReadApplication in 8.761 seconds (process running for 9.678)
+2025-12-09T13:44:57.185+01:00  INFO 14072 --- [CQRSRead] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-12-09T13:44:57.539+01:00  INFO 14072 --- [CQRSRead] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-12-09T13:44:57.545+01:00  INFO 14072 --- [CQRSRead] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-09T13:44:57.586+01:00  INFO 14072 --- [CQRSRead] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-09T13:44:57.596+01:00  INFO 14072 --- [CQRSRead] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09T13:44:57.602+01:00  INFO 14072 --- [CQRSRead] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-09T13:44:57.620+01:00  INFO 14072 --- [CQRSRead] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-09T13:45:15.667+01:00  INFO 3340 --- [CQRSRead] [main] o.example.cqrsread.CqrsReadApplication   : Starting CqrsReadApplication v0.0.1-SNAPSHOT using Java 21.0.8 with PID 3340 (C:\Users\radenko.setka\IdeaProjects\CQRS\CQRSRead\target\CQRSRead-0.0.1-SNAPSHOT.jar started by radenko.setka in C:\Users\radenko.setka\IdeaProjects\CQRS)
+2025-12-09T13:45:15.678+01:00  INFO 3340 --- [CQRSRead] [main] o.example.cqrsread.CqrsReadApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-12-09T13:45:17.273+01:00  INFO 3340 --- [CQRSRead] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-09T13:45:17.370+01:00  INFO 3340 --- [CQRSRead] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 1 JPA repository interface.
+2025-12-09T13:45:17.822+01:00  INFO 3340 --- [CQRSRead] [main] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2025-12-09T13:45:17.824+01:00  INFO 3340 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2025-12-09T13:45:17.827+01:00  INFO 3340 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2025-12-09T13:45:17.828+01:00  INFO 3340 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-12-09T13:45:17.829+01:00  INFO 3340 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-12-09T13:45:17.830+01:00  INFO 3340 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2025-12-09T13:45:17.831+01:00  INFO 3340 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.support.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2025-12-09T13:45:17.833+01:00  INFO 3340 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2025-12-09T13:45:17.834+01:00  INFO 3340 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2025-12-09T13:45:17.834+01:00  INFO 3340 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationInfo [org.springframework.boot.ApplicationInfoPropertySource] to EncryptableMapPropertySourceWrapper
+2025-12-09T13:45:18.173+01:00  INFO 3340 --- [CQRSRead] [main] c.u.j.filter.DefaultLazyPropertyFilter   : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2025-12-09T13:45:18.198+01:00  INFO 3340 --- [CQRSRead] [main] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2025-12-09T13:45:18.216+01:00  INFO 3340 --- [CQRSRead] [main] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2025-12-09T13:45:18.641+01:00  INFO 3340 --- [CQRSRead] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9001 (http)
+2025-12-09T13:45:18.665+01:00  INFO 3340 --- [CQRSRead] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-09T13:45:18.666+01:00  INFO 3340 --- [CQRSRead] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-09T13:45:18.725+01:00  INFO 3340 --- [CQRSRead] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2903 ms
+2025-12-09T13:45:19.102+01:00  INFO 3340 --- [CQRSRead] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-09T13:45:19.199+01:00  INFO 3340 --- [CQRSRead] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-09T13:45:20.100+01:00  INFO 3340 --- [CQRSRead] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-09T13:45:20.155+01:00  INFO 3340 --- [CQRSRead] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-09T13:45:20.776+01:00  INFO 3340 --- [CQRSRead] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31e22365
+2025-12-09T13:45:20.781+01:00  INFO 3340 --- [CQRSRead] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-09T13:45:20.880+01:00  WARN 3340 --- [CQRSRead] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-09T13:45:20.931+01:00  INFO 3340 --- [CQRSRead] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/cqrs_read]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.4
+	Default catalog/schema: cqrs_read/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-09T13:45:22.262+01:00  INFO 3340 --- [CQRSRead] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-09T13:45:22.368+01:00  INFO 3340 --- [CQRSRead] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09T13:45:22.525+01:00  INFO 3340 --- [CQRSRead] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-09T13:45:22.802+01:00  WARN 3340 --- [CQRSRead] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-09T13:45:23.840+01:00  INFO 3340 --- [CQRSRead] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9001 (http) with context path '/'
+2025-12-09T13:45:23.849+01:00  INFO 3340 --- [CQRSRead] [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-12-09T13:45:24.013+01:00  INFO 3340 --- [CQRSRead] [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#19a544cd:0/SimpleConnection@6c2063e0 [delegate=amqp://guest@127.0.0.1:5672/, localPort=60366]
+2025-12-09T13:45:24.180+01:00  INFO 3340 --- [CQRSRead] [main] o.example.cqrsread.CqrsReadApplication   : Started CqrsReadApplication in 9.379 seconds (process running for 10.348)
+2025-12-09T13:46:38.989+01:00  INFO 3340 --- [CQRSRead] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-12-09T13:46:39.623+01:00  INFO 3340 --- [CQRSRead] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-12-09T13:46:39.625+01:00  INFO 3340 --- [CQRSRead] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-09T13:46:39.641+01:00  INFO 3340 --- [CQRSRead] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-09T13:46:39.651+01:00  INFO 3340 --- [CQRSRead] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09T13:46:39.655+01:00  INFO 3340 --- [CQRSRead] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-09T13:46:39.672+01:00  INFO 3340 --- [CQRSRead] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-09T14:12:13.658+01:00  INFO 18492 --- [CQRSRead] [main] o.example.cqrsread.CqrsReadApplication   : Starting CqrsReadApplication using Java 21.0.8 with PID 18492 (C:\Users\radenko.setka\IdeaProjects\CQRS\CQRSRead\target\classes started by radenko.setka in C:\Users\radenko.setka\IdeaProjects\CQRS)
+2025-12-09T14:12:13.664+01:00  INFO 18492 --- [CQRSRead] [main] o.example.cqrsread.CqrsReadApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-12-09T14:12:14.833+01:00  INFO 18492 --- [CQRSRead] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-09T14:12:14.922+01:00  INFO 18492 --- [CQRSRead] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interface.
+2025-12-09T14:12:15.275+01:00  INFO 18492 --- [CQRSRead] [main] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2025-12-09T14:12:15.276+01:00  INFO 18492 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2025-12-09T14:12:15.277+01:00  INFO 18492 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-12-09T14:12:15.278+01:00  INFO 18492 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-12-09T14:12:15.279+01:00  INFO 18492 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2025-12-09T14:12:15.280+01:00  INFO 18492 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.support.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2025-12-09T14:12:15.281+01:00  INFO 18492 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2025-12-09T14:12:15.281+01:00  INFO 18492 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2025-12-09T14:12:15.282+01:00  INFO 18492 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationInfo [org.springframework.boot.ApplicationInfoPropertySource] to EncryptableMapPropertySourceWrapper
+2025-12-09T14:12:15.514+01:00  INFO 18492 --- [CQRSRead] [main] c.u.j.filter.DefaultLazyPropertyFilter   : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2025-12-09T14:12:15.532+01:00  INFO 18492 --- [CQRSRead] [main] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2025-12-09T14:12:15.536+01:00  INFO 18492 --- [CQRSRead] [main] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2025-12-09T14:12:15.846+01:00  INFO 18492 --- [CQRSRead] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9001 (http)
+2025-12-09T14:12:15.866+01:00  INFO 18492 --- [CQRSRead] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-09T14:12:15.867+01:00  INFO 18492 --- [CQRSRead] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-09T14:12:15.954+01:00  INFO 18492 --- [CQRSRead] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2212 ms
+2025-12-09T14:12:16.055+01:00  INFO 18492 --- [CQRSRead] [main] c.u.j.encryptor.DefaultLazyEncryptor     : String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2025-12-09T14:12:16.075+01:00  INFO 18492 --- [CQRSRead] [main] c.u.j.c.StringEncryptorBuilder           : Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWITHHMACSHA512ANDAES_256
+2025-12-09T14:12:16.075+01:00  INFO 18492 --- [CQRSRead] [main] c.u.j.c.StringEncryptorBuilder           : Encryptor config not found for property jasypt.encryptor.key-obtention-iterations, using default value: 1000
+2025-12-09T14:12:16.076+01:00  INFO 18492 --- [CQRSRead] [main] c.u.j.c.StringEncryptorBuilder           : Encryptor config not found for property jasypt.encryptor.pool-size, using default value: 1
+2025-12-09T14:12:16.076+01:00  INFO 18492 --- [CQRSRead] [main] c.u.j.c.StringEncryptorBuilder           : Encryptor config not found for property jasypt.encryptor.provider-name, using default value: null
+2025-12-09T14:12:16.077+01:00  INFO 18492 --- [CQRSRead] [main] c.u.j.c.StringEncryptorBuilder           : Encryptor config not found for property jasypt.encryptor.provider-class-name, using default value: null
+2025-12-09T14:12:16.078+01:00  INFO 18492 --- [CQRSRead] [main] c.u.j.c.StringEncryptorBuilder           : Encryptor config not found for property jasypt.encryptor.salt-generator-classname, using default value: org.jasypt.salt.RandomSaltGenerator
+2025-12-09T14:12:16.081+01:00  INFO 18492 --- [CQRSRead] [main] c.u.j.c.StringEncryptorBuilder           : Encryptor config not found for property jasypt.encryptor.iv-generator-classname, using default value: org.jasypt.iv.RandomIvGenerator
+2025-12-09T14:12:16.082+01:00  INFO 18492 --- [CQRSRead] [main] c.u.j.c.StringEncryptorBuilder           : Encryptor config not found for property jasypt.encryptor.string-output-type, using default value: base64
+2025-12-09T14:12:16.306+01:00  INFO 18492 --- [CQRSRead] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-09T14:12:16.408+01:00  INFO 18492 --- [CQRSRead] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-09T14:12:17.146+01:00  INFO 18492 --- [CQRSRead] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-09T14:12:17.201+01:00  INFO 18492 --- [CQRSRead] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-09T14:12:17.662+01:00  INFO 18492 --- [CQRSRead] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1013871e
+2025-12-09T14:12:17.665+01:00  INFO 18492 --- [CQRSRead] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-09T14:12:17.738+01:00  WARN 18492 --- [CQRSRead] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-09T14:12:17.765+01:00  INFO 18492 --- [CQRSRead] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/cqrs_read]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.4
+	Default catalog/schema: cqrs_read/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-09T14:12:19.639+01:00  INFO 18492 --- [CQRSRead] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-09T14:12:19.746+01:00  INFO 18492 --- [CQRSRead] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09T14:12:19.930+01:00  INFO 18492 --- [CQRSRead] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-09T14:12:20.230+01:00  WARN 18492 --- [CQRSRead] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-09T14:12:21.159+01:00  INFO 18492 --- [CQRSRead] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9001 (http) with context path '/'
+2025-12-09T14:12:21.165+01:00  INFO 18492 --- [CQRSRead] [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-12-09T14:12:21.252+01:00  INFO 18492 --- [CQRSRead] [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#696a6506:0/SimpleConnection@1018552d [delegate=amqp://guest@127.0.0.1:5672/, localPort=59413]
+2025-12-09T14:12:21.333+01:00  INFO 18492 --- [CQRSRead] [main] o.example.cqrsread.CqrsReadApplication   : Started CqrsReadApplication in 8.542 seconds (process running for 10.559)
+2025-12-09T14:12:28.457+01:00  INFO 18492 --- [CQRSRead] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-12-09T14:12:29.389+01:00  INFO 18492 --- [CQRSRead] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-12-09T14:12:29.395+01:00  INFO 18492 --- [CQRSRead] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-09T14:12:29.444+01:00  INFO 18492 --- [CQRSRead] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-09T14:12:29.453+01:00  INFO 18492 --- [CQRSRead] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09T14:12:29.455+01:00  INFO 18492 --- [CQRSRead] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-09T14:12:29.464+01:00  INFO 18492 --- [CQRSRead] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-09T14:18:03.379+01:00  INFO 15040 --- [CQRSRead] [main] o.example.cqrsread.CqrsReadApplication   : Starting CqrsReadApplication using Java 21.0.8 with PID 15040 (C:\Users\radenko.setka\IdeaProjects\CQRS\CQRSRead\target\classes started by radenko.setka in C:\Users\radenko.setka\IdeaProjects\CQRS)
+2025-12-09T14:18:03.384+01:00  INFO 15040 --- [CQRSRead] [main] o.example.cqrsread.CqrsReadApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-12-09T14:18:04.346+01:00  INFO 15040 --- [CQRSRead] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-09T14:18:04.416+01:00  INFO 15040 --- [CQRSRead] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interface.
+2025-12-09T14:18:04.701+01:00  INFO 15040 --- [CQRSRead] [main] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2025-12-09T14:18:04.702+01:00  INFO 15040 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2025-12-09T14:18:04.703+01:00  INFO 15040 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-12-09T14:18:04.703+01:00  INFO 15040 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2025-12-09T14:18:04.704+01:00  INFO 15040 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2025-12-09T14:18:04.705+01:00  INFO 15040 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.support.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2025-12-09T14:18:04.706+01:00  INFO 15040 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2025-12-09T14:18:04.706+01:00  INFO 15040 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2025-12-09T14:18:04.708+01:00  INFO 15040 --- [CQRSRead] [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationInfo [org.springframework.boot.ApplicationInfoPropertySource] to EncryptableMapPropertySourceWrapper
+2025-12-09T14:18:05.002+01:00  INFO 15040 --- [CQRSRead] [main] c.u.j.filter.DefaultLazyPropertyFilter   : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2025-12-09T14:18:05.025+01:00  INFO 15040 --- [CQRSRead] [main] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2025-12-09T14:18:05.031+01:00  INFO 15040 --- [CQRSRead] [main] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2025-12-09T14:18:05.350+01:00  INFO 15040 --- [CQRSRead] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9001 (http)
+2025-12-09T14:18:05.372+01:00  INFO 15040 --- [CQRSRead] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-09T14:18:05.372+01:00  INFO 15040 --- [CQRSRead] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-09T14:18:05.478+01:00  INFO 15040 --- [CQRSRead] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2027 ms
+2025-12-09T14:18:05.589+01:00  INFO 15040 --- [CQRSRead] [main] c.u.j.encryptor.DefaultLazyEncryptor     : String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2025-12-09T14:18:05.617+01:00  INFO 15040 --- [CQRSRead] [main] c.u.j.c.StringEncryptorBuilder           : Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWITHHMACSHA512ANDAES_256
+2025-12-09T14:18:05.618+01:00  INFO 15040 --- [CQRSRead] [main] c.u.j.c.StringEncryptorBuilder           : Encryptor config not found for property jasypt.encryptor.key-obtention-iterations, using default value: 1000
+2025-12-09T14:18:05.619+01:00  INFO 15040 --- [CQRSRead] [main] c.u.j.c.StringEncryptorBuilder           : Encryptor config not found for property jasypt.encryptor.pool-size, using default value: 1
+2025-12-09T14:18:05.620+01:00  INFO 15040 --- [CQRSRead] [main] c.u.j.c.StringEncryptorBuilder           : Encryptor config not found for property jasypt.encryptor.provider-name, using default value: null
+2025-12-09T14:18:05.621+01:00  INFO 15040 --- [CQRSRead] [main] c.u.j.c.StringEncryptorBuilder           : Encryptor config not found for property jasypt.encryptor.provider-class-name, using default value: null
+2025-12-09T14:18:05.622+01:00  INFO 15040 --- [CQRSRead] [main] c.u.j.c.StringEncryptorBuilder           : Encryptor config not found for property jasypt.encryptor.salt-generator-classname, using default value: org.jasypt.salt.RandomSaltGenerator
+2025-12-09T14:18:05.624+01:00  INFO 15040 --- [CQRSRead] [main] c.u.j.c.StringEncryptorBuilder           : Encryptor config not found for property jasypt.encryptor.iv-generator-classname, using default value: org.jasypt.iv.RandomIvGenerator
+2025-12-09T14:18:05.626+01:00  INFO 15040 --- [CQRSRead] [main] c.u.j.c.StringEncryptorBuilder           : Encryptor config not found for property jasypt.encryptor.string-output-type, using default value: base64
+2025-12-09T14:18:05.870+01:00  INFO 15040 --- [CQRSRead] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-09T14:18:05.970+01:00  INFO 15040 --- [CQRSRead] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-09T14:18:06.799+01:00  INFO 15040 --- [CQRSRead] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-09T14:18:06.845+01:00  INFO 15040 --- [CQRSRead] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-09T14:18:07.297+01:00  INFO 15040 --- [CQRSRead] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a4b8e25
+2025-12-09T14:18:07.300+01:00  INFO 15040 --- [CQRSRead] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-09T14:18:07.363+01:00  WARN 15040 --- [CQRSRead] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-09T14:18:07.386+01:00  INFO 15040 --- [CQRSRead] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/cqrs_read]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.4
+	Default catalog/schema: cqrs_read/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-09T14:18:08.510+01:00  INFO 15040 --- [CQRSRead] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-09T14:18:08.576+01:00  INFO 15040 --- [CQRSRead] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09T14:18:08.697+01:00  INFO 15040 --- [CQRSRead] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-09T14:18:08.895+01:00  WARN 15040 --- [CQRSRead] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-09T14:18:09.581+01:00  INFO 15040 --- [CQRSRead] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9001 (http) with context path '/'
+2025-12-09T14:18:09.586+01:00  INFO 15040 --- [CQRSRead] [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-12-09T14:18:09.654+01:00  INFO 15040 --- [CQRSRead] [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#2f08e6d3:0/SimpleConnection@3ed1446c [delegate=amqp://guest@127.0.0.1:5672/, localPort=56116]
+2025-12-09T14:18:09.719+01:00  INFO 15040 --- [CQRSRead] [main] o.example.cqrsread.CqrsReadApplication   : Started CqrsReadApplication in 7.128 seconds (process running for 8.72)
+2025-12-09T14:18:14.916+01:00  INFO 15040 --- [CQRSRead] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-12-09T14:18:15.747+01:00  INFO 15040 --- [CQRSRead] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-12-09T14:18:15.753+01:00  INFO 15040 --- [CQRSRead] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-09T14:18:15.779+01:00  INFO 15040 --- [CQRSRead] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-09T14:18:15.796+01:00  INFO 15040 --- [CQRSRead] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-09T14:18:15.801+01:00  INFO 15040 --- [CQRSRead] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-09T14:18:15.820+01:00  INFO 15040 --- [CQRSRead] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
