@@ -34,9 +34,9 @@ This setup is made for learning purposes to show the separation of write and rea
 ## 📁 Project Structure
 
 ```
-cqrs-student/
-├── write-service/
-└── read-service/
+CQRS/
+├── CQRSRead/
+└── CQRSWrite/
 ```
 
 ---
@@ -100,8 +100,8 @@ mvn spring-boot:run
 
 ### Write Service
 
-* **POST** `/students` – Add a new student
+* **POST** `/api/students/write` – Add a new student
 
 ### Read Service
 
-* **GET** `/students/{id}` – Get a student by ID
+* **GET** `/api/students/{id}` – Get a student by ID
